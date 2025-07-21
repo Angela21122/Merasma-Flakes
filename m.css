@@ -181,3 +181,47 @@ footer {
   color: white;
   font-size: 14px;
 }
+.bullet-section {
+  font-size: 18px;
+  color: #333;
+  max-width: 900px;
+  margin: 10px auto 30px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+.bullet-section li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.toc {
+  width: 100%;
+  margin: 20px auto;
+  padding-left: 10px 0;
+  text-align: center;
+}
+.toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.toc a {
+  text-decoration: none;
+  color: #cb730b;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.toc a:hover {
+  color:#0073e6;
+}
+.caption.large {
+  font-size: 18px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
