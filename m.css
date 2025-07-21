@@ -153,8 +153,12 @@
   padding: 20px;
   margin: 30px auto;
   max-width: 900px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(251, 19, 19, 0.05);
   border-radius: 10px;
+}
+
+.head {
+  border: 1px solid #cb730b;
 }
         .caption {
   text-align: center;
@@ -184,9 +188,9 @@ footer {
 .bullet-section {
   font-size: 18px;
   color: #333;
-  max-width: 800px;
+  max-width: 900px;
   margin: 10px auto 30px;
-  padding-left: 15px;
+  padding-left: 20px;
   line-height: 1.6;
 }
 .bullet-section li {
@@ -207,13 +211,13 @@ footer {
 
 .toc li {
   display: inline-block;
-  margin: 0 15px;
+  margin-inline: 9px;
 }
 .toc a {
   text-decoration: none;
   color: #cb730b;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   transition: color 0.3s;
 }
 .toc a:hover {
